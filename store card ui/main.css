@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 183, 90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.card {
+    border: 2px solid #fff;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    top: 120px;
+    box-shadow: 0px 20px 50px #111;
+    padding: 20px;
+}
+
+nav {
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h2 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(233, 183, 90);
+    font-size: 20px;
+}
+
+nav h2 {
+    color: rgb(32, 30, 30);
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+nav input[type="button"] {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(32, 30, 30);
+    border: none;
+}
+
+.box1 {
+    width: 600px;
+}
+
+main h1 {
+    letter-spacing: 5px;
+    color: rgb(245, 174, 41);
+}
+
+main p {
+    line-height: 1.5em;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+label input[type="button"] {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(32, 30, 30);
+    border: none;
+    margin-top: 20px;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(245, 174, 41);
+    color: white;
+}
+
+main {
+    display: flex;
+}
